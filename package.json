@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "forever": "forever -w server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "config": "^3.3.3",
     "express": "^4.17.1",
     "express-validator": "^6.9.2",
+    "forever": "^3.0.4",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.17"
   }
